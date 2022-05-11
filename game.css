@@ -1,0 +1,49 @@
+#game h2{
+    margin-bottom: 2.5rem;;
+}
+
+.choices{
+    display: flex;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    font-size: 1.8rem;
+    border: 0.05rem solid rgb(3, 100, 156);
+    background: rgb(7, 141, 219);
+}
+.choices:hover{
+    cursor: pointer;
+    transform: translateY(-0.1rem);
+    transform: scale(1.025);
+    box-shadow: 0 0.1rem 1.5rem 0 rgb(3, 100, 156);
+}
+.choice-item{
+    padding: 1.5rem 2.5rem;
+    background-color: rgb(214, 238, 252);
+    color: rgb(3, 100, 156);
+
+}
+.choice-text{
+    padding: 1.5rem;
+    color: rgb(214, 238, 252);
+    width: 100%;
+}
+
+
+
+/* Loader */
+#loader{
+    border: 1.6rem solid white;
+    border-radius: 50%; /* Circle */
+    border-top: 1.6rem solid #56a5eb;
+    width: 12rem;
+    height: 12rem;
+    animation: rotate 2s linear infinite;
+}
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="final-score.css">
+</head>
+<body>
+    <div class="container">
+        <div class="final column">
+            <h1 id="finalScore">0</h1>
+            <form action="" method="post">
+                <label for="name" class="name-label">Enter name </label>
+                <input type="text" name="name" id="name" placeholder="Enter name">
+                <a disabled type="submit" class="btn" id="saveScoreBtn" onclick="saveHightScore(event)">                
+                Save Score
+                </a>
+            </form>
+            <a href="game.html" class="btn">Play Again</a>
+            <a href="index.html" class="btn">Home</a>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+    <script src="final-score.js"></script>   
+</body>
+</html>

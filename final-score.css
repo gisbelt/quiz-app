@@ -1,0 +1,9 @@
+.name-label{
+    color: rgb(7, 141, 219);
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    display: none;
+}
+.input-border-click{
+    border-top: transparent;
+}
