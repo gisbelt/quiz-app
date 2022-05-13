@@ -1,7 +1,34 @@
 #game h2{
     margin-bottom: 2.5rem;;
 }
+/* hud  */
+#hud{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+}
+.hud-title{
+    text-align: center;
+    font-size: 2rem;
+}
+.hud-main-text{
+    text-align: center;
+}
 
+/*progress bar*/
+#progressBar{
+    width: 20rem;
+    height: 2.5rem;
+    border: 0.05rem solid rgb(3, 100, 156);
+    margin-top: 1rem;
+}
+#progressBarFull{
+    height: 2.5rem;
+    background-color: rgb(3, 100, 156);
+    width: 0%;
+}
+/* choices  */
 .choices{
     display: flex;
     margin-bottom: 0.5rem;
@@ -27,8 +54,14 @@
     color: rgb(214, 238, 252);
     width: 100%;
 }
-
-
+.incorrect{
+    background-color: rgb(197, 4, 4);
+    width: 100%;
+}
+.correct{
+    background-color: rgb(3, 187, 125);
+    width: 100%;
+}
 
 /* Loader */
 #loader{
@@ -38,6 +71,7 @@
     width: 12rem;
     height: 12rem;
     animation: rotate 2s linear infinite;
+    position: absolute;
 }
 @keyframes rotate {
     0% {

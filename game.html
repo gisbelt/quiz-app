@@ -10,28 +10,51 @@
 </head>
 <body>
     <div class="container">
-        <!-- <div id="loader"></div> -->
-        <div id="game" class="justify-content-center column">
+        <div id="loader"></div>
+        <div id="game" class="justify-content-center column hidden">
+            <!-- HUD  -->
+            <div id="hud">
+                <!-- 1 -->
+                <div id="hud-item">
+                    <p class="hud-title" id="progressText">
+                        Question 
+                        <strong id="questionCounterText"></strong>
+                    </p>
+                    <div id="progressBar">
+                        <div id="progressBarFull"></div>
+                    </div>
+                </div>
+                <!-- 2 -->
+                <div id="hud-item">
+                    <p class="hud-title">
+                        Score
+                    </p>
+                    <h1 class="hud-main-text" id="scoreText">
+                       0
+                    </h1>
+                </div>
+            </div>
+            <!-- HUD  -->
             <h2 id="question">Choose the correct answer to this question</h2>
             <div class="choices">
                 <p class="choice-item">A</p>
                 <!-- data-number: wen can distinguish between them, when we select all of them -->
-                <p class="choice-text" data-number="1">asdsd</p>
+                <p class="choice-text" data-number="1"></p>
             </div>
 
             <div class="choices">
                 <p class="choice-item">B</p>
-                <p class="choice-text" data-number="2">asdsad</p>
+                <p class="choice-text" data-number="2"></p>
             </div>
 
             <div class="choices">
                 <p class="choice-item">C</p>
-                <p class="choice-text" data-number="3">sdsad</p>
+                <p class="choice-text" data-number="3"></p>
             </div>
 
             <div class="choices">
                 <p class="choice-item">D</p>
-                <p class="choice-text" data-number="4">asds</p>
+                <p class="choice-text" data-number="4"></p>
             </div>
         </div>
     </div>
