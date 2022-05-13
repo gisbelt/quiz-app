@@ -1,6 +1,6 @@
 # Quiz App
 
-![img](./img/quiz-app.png)
+![img](img/quiz-app.png)
 
 Practice Quick Quiz App with HTML, CSS, and JavaScript. By: James Q Quick
 
